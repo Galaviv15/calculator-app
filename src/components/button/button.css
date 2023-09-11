@@ -1,0 +1,76 @@
+.button-component{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.calc-btn{
+    border-radius: 20px;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calc-btn:hover{
+    cursor: pointer;
+}
+
+.btn-digit{
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-digit:hover{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.btn-zero{
+    height: 75px;
+    width: 150px;
+    background-color: gray;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-zero:hover{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.btn-operator{
+    height: 75px;
+    width: 75px;
+    background-color:coral;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-operator:hover{
+    background-color:rgba(255, 127, 80, 0.9);
+}
+
+
+.btn-clear{
+    height: 75px;
+    width: 130px;
+    background-color:dodgerblue;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-clear:hover{
+    background-color:rgba(30, 143, 255, 0.9);
+}
+
+
+.btn-result{
+    height: 75px;
+    width: 75px;
+    background-color:limegreen;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-result:hover{
+    background-color:rgba(50, 205, 50, 0.9);
+}
